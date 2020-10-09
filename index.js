@@ -227,6 +227,7 @@ Create a function called `getArtistByIndex` that takes two arguments:
  * For example, if getArtistByIndex is invoked with the artists dataset and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
+
 function getArtistByIndex(array, i) {
   return `the artist at index ${i} is ${array[i].name}`;
 }
@@ -278,11 +279,7 @@ function get20s(array){
   return returnArray;
 }
 
-
-console.log(get20s(20));
-
-
-
+console.log(get20s(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -296,6 +293,7 @@ Create a function called `removeArtist` that takes two arguments:
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
+
 console.log(artists.length);
 
 function removeArtist(array, i) {
@@ -312,7 +310,6 @@ function removeArtist(array, i) {
 }
 
 console.log(removeArtist(artists, 19));
-
 
 
 /**
@@ -356,6 +353,7 @@ function lotsOfArt(array){
   }
   return moreThan100;
 }
+
 console.log(lotsOfArt(artists));
 
 
